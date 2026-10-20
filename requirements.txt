@@ -1,0 +1,12 @@
+fastapi==0.143.3
+uvicorn==0.54.0
+gradio==6.30.0
+python-dotenv==1.2.4
+SQLAlchemy==2.1.5
+PyMySQL==1.2.3
+cryptography==48.0.1
+langchain==1.4.6
+langchain-core==1.6.12
+langchain-community==0.4.2
+langchain-google-genai==4.4.2
+langgraph==1.2.16
