@@ -58,6 +58,7 @@ def trim_history(messages: list) -> None:
 
 def ask(question: str, verbose: bool = False) -> str:
     messages = [SystemMessage(SYSTEM_PROMPT), HumanMessage(question)]
+    trim_history(messages)
     input_tokens = output_tokens = 0
     answer = "⚠️   Agent took too many steps. Try a more specific question."
 

@@ -10,3 +10,4 @@ langchain-core==1.6.12
 langchain-community==0.4.2
 langchain-google-genai==4.4.2
 langgraph==1.2.16
+langchain-openai==1.7.2
